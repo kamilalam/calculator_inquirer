@@ -6,16 +6,6 @@ import inquirer from "inquirer"
 import chalk from "chalk"
 import chalkAnimation from "chalk-animation"
 import Choices from "inquirer/lib/objects/choices.js"
-//  function start() {
-//     const header = chalkAnimation.rainbow("Let's Start Calculation");
-//     setTimeout(()=>{
-//       header.start()
-//     },3000)
-//     setTimeout(()=>{
-//       header.stop()
-//     },1000);
-// }
-//  await start()
 
 async function calculatorInput() {
     inquirer
